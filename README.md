@@ -3,16 +3,16 @@ This project focuses on building a multiclass image classification system to ide
 Both a custom CNN model and multiple pre-trained transfer learning models are implemented, evaluated, and compared.
 The best-performing model is deployed using a Streamlit web application for real-time predictions.
 
-🎯 Problem Statement
+# Problem Statement
 
 Manual fish species identification is time-consuming and prone to errors.
 This project aims to automate fish classification using image data, improving accuracy and efficiency through deep learning techniques.
 
-🧠 Solution Approach
+# Solution Approach
 
 The solution follows an end-to-end deep learning pipeline:
 
-Data preprocessing and augmentation
+# Data preprocessing and augmentation
 
 Model training (CNN + Transfer Learning)
 
@@ -22,13 +22,13 @@ Model saving and deployment
 
 User-friendly Streamlit interface
 
-🛠️ Technologies Used
+# Technologies Used
 
 Programming Language: Python
 
 Deep Learning: TensorFlow, Keras
 
-Models Used:
+# Models Used:
 
 Custom CNN
 
@@ -42,13 +42,13 @@ InceptionV3
 
 EfficientNetB0
 
-Web Framework: Streamlit
+# Web Framework: Streamlit
 
 Visualization: Matplotlib, Seaborn
 
 Version Control: Git & GitHub
 
-📂 Dataset Description
+# Dataset Description
 
 The dataset consists of fish images categorized into folders by species.
 
@@ -56,7 +56,7 @@ Each folder name represents a class label.
 
 The dataset is loaded using TensorFlow’s ImageDataGenerator for efficient preprocessing.
 
-Preprocessing Techniques:
+# Preprocessing Techniques:
 
 Image rescaling (0–1)
 
@@ -74,7 +74,7 @@ Adam optimizer and categorical cross-entropy loss are used.
 
 Validation accuracy and loss are monitored during training.
 
-📊 Model Evaluation
+# Model Evaluation
 
 The models are evaluated using:
 
@@ -90,7 +90,7 @@ Confusion Matrix
 
 Training and validation performance is visualized using accuracy and loss curves.
 
-🚀 Deployment (Streamlit App)
+# Deployment (Streamlit App)
 
 The Streamlit application allows users to:
 
@@ -100,7 +100,7 @@ Predict the fish species
 
 View prediction confidence scores
 
-How it works:
+# How it works:
 
 User uploads an image
 
